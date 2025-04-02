@@ -1,0 +1,9 @@
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "backendchasqui/Dockerfile"
+watchPatterns = [
+    "requirements.txt", 
+    "./**", 
+    "railway.toml",
+    "Dockerfile",
+]
